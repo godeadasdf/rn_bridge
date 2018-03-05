@@ -11,7 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
-import MyView from './pages/MyView';
+var MyView = require('./pages/MyView')
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -25,7 +25,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <MyView/>
+        <MyView style={{width:100,height:100}}/>
       </View>
     );
   }
