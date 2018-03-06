@@ -1,3 +1,4 @@
 rootProject.name = 'rn_bridge'
 
-include ':app'
+include ':app', ':map'
+project(':map').projectDir = new File('amap3d/android')

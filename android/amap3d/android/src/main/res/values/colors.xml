@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <color name="track_line_1">#80FF00</color>
+
+    <color name="track_line_2">#FFFF00</color>
+
+    <color name="track_line_3">#FFC900</color>
+
+    <color name="track_line_4">#FF6900</color>
+
+    <color name="track_line_5">#FF4000</color>
+
+
+
+
+
+</resources>
